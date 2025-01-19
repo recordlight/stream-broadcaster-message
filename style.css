@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'KG Happy';
+    src: url('./assets/KGHAPPY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KG Happy Solid';
+    src: url('./assets/KGHAPPYSolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KG Happy Shadows';
+    src: url('./assets/KGHAPPYShadows.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.message {
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    background: #333;
+    border-radius: 1.125rem 1.125rem 0 1.125rem;
+    min-height: 2.25rem;
+    width: fit-content;
+    max-width: 66%;
+
+    color:#fff;
+    margin: auto 1rem 1rem auto ;;
+    
+    box-shadow: 0 0 2rem rgba(black, 0.075);
+
+}
+
+div.absolutebottom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
