@@ -29,6 +29,7 @@ client.on('message', (channel, tags, message, self) => {
 
 
 function resetAnimation() { 
+  dialogElement.style.display = "inline";
   animateCSS('.message', 'fadeInRight');
 }
 
@@ -87,3 +88,5 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
 
     node.addEventListener('animationend', handleAnimationEnd, {once: true});
   });
+
+dialogElement.style.display = "none";
