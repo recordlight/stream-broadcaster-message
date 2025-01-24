@@ -7,8 +7,7 @@ Do you often do no mic streams? Do you perhaps wish for more engagemement? Intro
 
 
 # Preview
-Youtube video
-to be uploaded...
+<a href="https://www.youtube.com/watch?v=0lctgYdmSwY&feature=youtu.be" alt="video demo">Video Demo</a>
 
 # How to use
 ## Setup in OBS
